@@ -17,8 +17,35 @@
   overflow: hidden;
 }
 
+.logoNav {
+  float: left;
+  height: 94px;
+  width: 181px;
+  margin-left: 70px;
+  margin-top: 30px;
+}
 
+.navbar a {
+  float: left;
+  color:#FD763F;
+  text-align: center;
+  font-size: 23px;
+  text-decoration: none;
+  padding: 14px;
+  margin: 50px 20px;
+  margin-left: 80px;
+}
 
+.navbar a:hover {
+  background-color:#FD763F;
+  color: white;
+}
+
+/* first div */
+
+.firstDiv {
+  background-color: tomato;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

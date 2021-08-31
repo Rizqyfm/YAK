@@ -1,67 +1,68 @@
-/******************************************
-/* CSS
-/*******************************************/
-
-/* Box Model Hack */
+/* Box Model Hack and font */
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-
-/* font */
-* {
-  font-family: 'Open Sans', sans-serif;;
-}
-/* smooth transition between pages */
-.transition-fade {
-  opacity: 1;
-  transition: 500ms;
-}
-
-html.is-animating .transition-fade {
-  opacity: 0;
-}
-
+/* Desktop */
 /* navbar */
-.navbar {
-  background-color: white;
-  overflow: hidden;
+header .logo {
+  width: 180px;
+  height: 100px;
+  cursor: pointer;
 }
 
-.logoNav {
-  float: left;
-  height: 94px;
-  width: 181px;
-  margin-left: 70px;
-  margin-top: 30px;
-}
-
-.navbar a {
-  float: left;
-  color:#FD763F;
-  text-align: center;
-  font-size: 23px;
+li, a, button {
+  font-weight: 700;
+  font-size: 18px;
+  color: #f5743e;
   text-decoration: none;
-  padding: 14px;
-  margin: 50px 20px;
-  margin-left: 80px;
 }
 
-.navbar a:hover {
-  background-color:#FD763F;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  border-bottom: 2px solid #f5743e;
+}
+
+.nav-link {
+  list-style: none;
+}
+
+.nav-link li {
+  display: inline-block;
+  padding: 0px 50px;
+}
+
+.nav-link li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+  color: black;
+}
+
+button {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  background-color: #f5743e;
   color: white;
 }
 
-/* first div */
-
-.firstDiv {
-  background-color: tomato;
+button:hover {
+  color: black;
 }
+
+
+
+
 
 /******************************************
 /* ADDITIONAL STYLES

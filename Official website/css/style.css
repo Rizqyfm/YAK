@@ -12,6 +12,8 @@ header .logo {
   width: 180px;
   height: 100px;
   cursor: pointer;
+  /* If you want the nav goes right, activate below */
+  /* margin-right: auto; */
 }
 
 li, a, button {
@@ -24,6 +26,8 @@ li, a, button {
 header {
   display: flex;
   justify-content: space-between;
+  /* If you want the nav goes right, make flex-end */
+  /* justify-content: flex-end; */
   align-items: center;
   padding: 10px 10%;
   border-bottom: 2px solid #f5743e;

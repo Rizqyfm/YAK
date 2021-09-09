@@ -1,4 +1,6 @@
-/* Box Model Hack and font */
+/* SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -6,8 +8,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Desktop */
-/* navbar */
+html, body {
+  height: 100%;
+}
+
+/* -----------------Desktop----------------- */
+/* NAVBAR */
 header .logo {
   width: 180px;
   height: 100px;
@@ -64,10 +70,63 @@ button:hover {
   color: black;
 }
 
+/* MAIN */
+#container {
+  min-height: 100%;
+}
+
+#main-1 {
+  position: relative;
+  overflow: auto;
+  border: 2px orange solid;
+  height: 800px;
+  padding: 230px 0;
+}
+
+#main-1::before{
+  content: "";
+  background-image: url("img-css/img1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+#container .tagline, .taglineExplanation {
+  position: relative;
+  text-align: center;
+  padding: 12px;
+}
+
+.tagline {
+  color: #f5743e;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.taglineExplanation {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#main-2 {
+  overflow: auto;
+  padding-bottom: 200px;
+  border: 1px solid black;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #f5743e;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
+}
 
 
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/

@@ -57,17 +57,20 @@ header {
 }
 
 button {
+  outline: 0;
+  border: 0;
   padding: 9px 25px;
-  border: none;
-  border-radius: 50px;
+  border: 2px solid #f5743e;
+  border-radius: 30px;
   cursor: pointer;
-  transition: all 0.3s ease 0s;
-  background-color: #f5743e;
-  color: white;
+  background-color: white;
+  color: #f5743e;
+  transition: all 0.3s ease;
 }
 
 button:hover {
-  color: black;
+  background: #f5743e;
+  color: white;
 }
 
 /* MAIN */
@@ -75,6 +78,7 @@ button:hover {
   min-height: 100%;
 }
 
+/* -------first div-------- */
 #main-1 {
   position: relative;
   overflow: auto;
@@ -114,10 +118,15 @@ button:hover {
   font-size: 20px;
 }
 
+/* -------second div-------- */
 #main-2 {
   overflow: auto;
   padding-bottom: 200px;
   border: 1px solid black;
+}
+
+#main-2 p {
+  text-align: center
 }
 
 /* FOOTER */

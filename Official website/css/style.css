@@ -139,7 +139,7 @@ button:hover {
   color: #f5743e;
 }
 
-.text-main-2 .line1 {
+.text-main-2 .line1-div2 {
   padding-right: 400px;
   font-weight: bolder;
 }
@@ -159,6 +159,20 @@ button:hover {
   overflow: auto;
   padding-bottom: 200px;
 }
+
+/* #main-3::before{
+  content: "";
+  background-image: url("img-css/pertamina-mengajar.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+} */
 
 
 /* FOOTER */

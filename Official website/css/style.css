@@ -158,6 +158,7 @@ button:hover {
 #main-3 {
   overflow: auto;
   padding-bottom: 200px;
+  border: 1px solid black;
 }
 
 /* #main-3::before{
@@ -174,6 +175,19 @@ button:hover {
   opacity: 0.3;
 } */
 
+/* -------fourth div-------- */
+#main-4 {
+  overflow: auto;
+  padding-bottom: 200px;
+  border: 1px solid orange;
+}
+
+/* -------fifth div-------- */
+#main-5 {
+  overflow: auto;
+  padding-bottom: 200px;
+  border: 1px solid black;
+}
 
 /* FOOTER */
 #footer {

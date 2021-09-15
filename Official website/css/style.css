@@ -169,31 +169,30 @@ button:hover {
 
 /* -------third div-------- */
 #main-3 {
-  position: relative;
   overflow: auto;
-  height: 800px;
-  border: 2px solid black;
-  background-image: url('img-css/pertamina-mengajar.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 270px 0;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  border: 1px solid black;
 }
 
-
-#main-3 .line1-div3, .cta-program {
-  text-align: center;
+#main-3 .animation-image-1 {
+  height: 100px;
+  width: 150px;
 }
+
 
 .line1-div3 {
   color: #f5743e;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .cta-program {
   margin-top: 30px;
 }
+
 .cta-program a {
   color: black;
   text-decoration: underline;
@@ -202,6 +201,7 @@ button:hover {
   border-radius: 30px;
   padding: 9px 25px;
   cursor: pointer;
+  font-size: 10px;
 }
 
 .cta-program a:hover {
